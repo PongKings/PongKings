@@ -6,9 +6,9 @@ standard bet is $20 and the payout is based on the ratio of each player's skill 
 where the user can compare their winnings to the top 10 users.
 
 ####Future Improvements
-*Password Hash
-*Real players
-*Users can choose amount they want to bet on each match
-*User heirarchy with Admins that have the ability to generate matches and input results
-*Update to Angular
-*Cut user off when money reaches zero
+* Password Hash
+* Real players
+* Users can choose amount they want to bet on each match
+* User heirarchy with Admins that have the ability to generate matches and input results
+* Update to Angular
+* Cut user off when money reaches zero
