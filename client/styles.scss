@@ -184,7 +184,7 @@ img {
 .match{
   margin-top: 10px;
   .playerName{
-    display: inline-block;
+    display: block;
     margin-top: 1%;
     font-weight: bold;
     font-size: 20px;
@@ -201,7 +201,6 @@ margin: -1% 0 0 34%;
 .odds{
   // text-align: center;
   float: right;
-  display: inline-block;
   margin-right: 5%;
 }
 
