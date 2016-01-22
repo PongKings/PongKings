@@ -197,7 +197,8 @@ var page = {
       page.match3[1].payOut = payOut6;
 
     _.each(page.currentMatches, function(currVal, idx, arr){
-      $('article[data-index="'+idx+'"]').html("<img src='" + "images/"+currVal.id+".jpg' class='playerImg'><span class='playerName'>"+currVal.name+"</span><br><h4 class='odds'>"+(currVal.odds*100).toFixed(0)+"%</h4>");
+      //$('article[data-index="'+idx+'"]').html("<img src='" + "images/"+currVal.id+".jpg' class='playerImg'><span class='playerName'>"+currVal.name+"</span><br><h4 class='odds'>"+(currVal.odds*100).toFixed(0)+"%</h4>");
+      $('article[data-index="'+idx+'"]').html("<img src='" + "images/"+currVal.id+".jpg' class='playerImg'><div class='playerName'>"+currVal.name + " " + (currVal.odds*100).toFixed(0) +"%</div>");
     });
   },
   makePicks: function(pick1, pick2, pick3){

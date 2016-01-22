@@ -187,7 +187,7 @@ img {
     display: block;
     margin-top: 1%;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 18px;
     text-align: center;
     background-color: white;
     border-radius: 5px;
@@ -229,4 +229,14 @@ footer {
 
 .selected{
   border: 1px solid red;
+}
+
+
+@media only screen and (max-width: 1000px){
+  .match{
+    .playerName {
+      font-size: 14px;
+    }
+
+}
 }
